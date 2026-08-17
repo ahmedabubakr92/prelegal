@@ -8,7 +8,7 @@ interface MndaFormProps {
 }
 
 const inputClasses =
-  "w-full rounded-md border border-zinc-300 px-3 py-2 text-sm shadow-sm focus:border-zinc-500 focus:outline-none focus:ring-1 focus:ring-zinc-500";
+  "w-full rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm placeholder:text-zinc-400 focus:border-zinc-500 focus:outline-none focus:ring-1 focus:ring-zinc-500";
 const labelClasses = "block text-sm font-medium text-zinc-700 mb-1";
 
 function Field({
