@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "mcp__atlassian__getJiraIssue",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/react-markdown/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/react/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/remark-gfm/package.json'\\).version\\)\")",
+      "Bash(git status *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(npm run *)",
+      "Bash(agent-browser get *)",
+      "Bash(agent-browser screenshot *)",
+      "Bash(agent-browser find *)",
+      "Bash(agent-browser snapshot *)",
+      "Bash(agent-browser fill *)",
+      "Bash(agent-browser click *)",
+      "Bash(agent-browser keyboard *)",
+      "Bash(agent-browser type *)",
+      "Bash(agent-browser eval *)",
+      "Bash(agent-browser console *)",
+      "Bash(agent-browser download *)",
+      "Bash(sips -s format png /private/tmp/mnda-download.pdf --out /tmp/mnda-pdf-page.png)",
+      "Bash(agent-browser close *)",
+      "Bash(lsof -ti:3000 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)",
+      "Bash(rm -f /tmp/mnda-*.png /tmp/mnda-*.pdf /tmp/nextdev.log /private/tmp/mnda-download.pdf /private/tmp/mnda-pdf-page.png)",
+      "WebSearch",
+      "Bash(npm install *)",
+      "Bash(agent-browser --color-scheme light open http://localhost:3000)",
+      "Bash(git checkout *)",
+      "Bash(git pull *)"
+    ]
+  }
+}
